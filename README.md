@@ -1,6 +1,6 @@
 # BasicPython
 
-<div> <h1>Printing </h1> </div>
+<div> <h2>Printing </h2> </div>
 
 ```python
 #Do✅
