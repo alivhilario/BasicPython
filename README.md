@@ -56,7 +56,7 @@
     In caves of yellow
     
   ```
-<div> <h1>Variables and Concatenation </h1> </div>
+<div> <h2>Variables and Concatenation </h2> </div>
 
 ```python
 #Do✅
@@ -71,7 +71,7 @@
     bearcheetah
     
   ```
-<div> <h1>The Input Function </h1> </div>
+<div> <h2>The Input Function </h2> </div>
 
 ```python
 #Do✅
@@ -89,7 +89,7 @@
       |  
     
   ```
-<div> <h1>Integers </h1> </div>
+<div> <h2>Integers </h2> </div>
 
 ```python
 #Don't❌❌
@@ -125,7 +125,7 @@
     He is 50 years old and is 72 inches tall
     
   ```
-<div> <h1>String Multiplication </h1> </div>
+<div> <h2>String Multiplication </h2> </div>
 
 ```python
 
