@@ -293,10 +293,16 @@ TypeError: can't multiply sequence by non-int of type 'float'
     lower_row = '-' * width + '\n'
     print(upper_row * half_height, end='')
     print(lower_row * half_height, end='')
+
     #output
-    How much does your house cost?5000
-    How much money do you have inmediately available?2500 
-    You can afford the down payment!
+    Flag width:
+    5
+    Flag height:
+    4
+    ##--
+    ##--
+    -----
+    -----
   
   ```
 
