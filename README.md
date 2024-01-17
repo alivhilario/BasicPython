@@ -256,4 +256,48 @@
 TypeError: can't multiply sequence by non-int of type 'float'
   
   ```
+<div> <h2>Booleans and Boolean Expressions</h2> </div>
+
+```python
+#Do✅
+    #Input
+    homeCost = int(input('How much does your house cost?'))
+    availableFunds = int(input('How much money do you have inmediately available?'))
+    downPayment = homeCost * 0.2
+    if availableFunds >= downPayment:
+        print('You can afford the down payment!')
+
+    #output
+    How much does your house cost?5000
+    How much money do you have inmediately available?2500 
+    You can afford the down payment!
+  
+  ```
+<div> <h2>Flag Creator</h2> </div>
+
+```python
+#Do✅
+    #Input
+    # Ask the user for input values and convert to integers
+    width = input("Flag width:\n")
+    width = int(width)
+    height = input("Flag height:\n")
+    height = int(height)
+    
+    # Calculate half of the width and height fur use in multiplication
+    half_width = int(width / 2)
+    half_height = int(height / 2)
+    
+    # Create and print the rows of the flag
+    upper_row = '#' * half_width + '-' * half_width + '\n'
+    lower_row = '-' * width + '\n'
+    print(upper_row * half_height, end='')
+    print(lower_row * half_height, end='')
+    #output
+    How much does your house cost?5000
+    How much money do you have inmediately available?2500 
+    You can afford the down payment!
+  
+  ```
+
 
