@@ -56,3 +56,36 @@
     In caves of yellow
     
   ```
+<div> <h1>Variables and Concatenation </h1> </div>
+
+```python
+#Do✅
+    #input
+    value_1 = 'bear'
+    value_2 = 'cheetah'
+    print(value_1, value_2)
+    print(value_1 + value_2)
+
+    #output
+    bear cheetah
+    bearcheetah
+    
+  ```
+<div> <h1>The Input Function </h1> </div>
+
+```python
+#Do✅
+    #input
+    letter = input('Type a letter to use for the Christmas tree: ')
+    print('  ' + letter)
+    print(' ' + letter + letter + letter)
+    print(letter + letter + letter + letter + letter)
+    print('  |  ')
+
+    #output
+      *
+     ***
+    *****
+      |  
+    
+  ```
