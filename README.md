@@ -120,8 +120,47 @@
     print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches          tall')
 
     #output
-    print('His name is ' + name)
-    print(name + ' can be contacted at ' + email)
-    print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches          tall')
+    His name is Pierre
+    Pierre can be contacted at pierre@gmail.com
+    He is 50 years old and is 72 inches tall
+    
+  ```
+<div> <h1>String Multiplication </h1> </div>
+
+```python
+
+#Don't❌❌
+    #input
+    revenue = input('Business revenue: ')
+    cost = input('Business costs: ')
+    profit = revenue - cost
+    print('The business profit is: ' + str(profit))
+
+#Do✅
+    #Input
+    revenue = int(input('Business revenue: '))
+    cost = int(input('Business costs: '))
+    profit = revenue - cost
+    print('The business profit is: ' + str(profit))
+
+    #output
+    Business revenue: 100
+    Business costs: 75
+    The business profit is: 25
+
+#Do✅
+    #input
+    revenue = int(input('Business revenue: '))
+    cost = int(input('Business costs: '))
+    profit = revenue - cost
+    print('The business profit is: ' + str(profit))
+    cost_bar = '#' * int((cost / revenue) * 25)
+    profit_bar = '#' * int((profit / revenue) * 25)
+    print('  cost: ' + cost_bar)
+    print('profit: ' + profit_bar)
+
+    #output
+     cost: #########
+    profit: ###############
     
   ```
