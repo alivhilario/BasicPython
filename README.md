@@ -89,3 +89,39 @@
       |  
     
   ```
+<div> <h1>Integers </h1> </div>
+
+```python
+#Don't❌❌
+
+    #input
+    name = 'Pierre'
+    email = 'pierre@gmail.com'
+    age = 50
+    height = 72
+
+    print('His name is ' + name)
+    print(name + ' can be contacted at ' + email)
+    print('He is ' + age + ' years old and is ' + height + ' inches tall')
+
+#output
+   His name is Pierre
+    Pierre can be contacted at pierre@gmail.com
+    Traceback (most recent call last):
+      File "test.py", line 7, in <module>
+        print('He is ' + age + ' years old and is ' + height + ' inches tall')
+    TypeError: must be str, not int
+
+
+#Do✅
+    #input
+    print('His name is ' + name)
+    print(name + ' can be contacted at ' + email)
+    print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches          tall')
+
+    #output
+    print('His name is ' + name)
+    print(name + ' can be contacted at ' + email)
+    print('He is ' +str(age) + ' years old and is ' + str(height) + ' inches          tall')
+    
+  ```
