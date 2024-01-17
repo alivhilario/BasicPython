@@ -136,6 +136,14 @@
     profit = revenue - cost
     print('The business profit is: ' + str(profit))
 
+#output
+     Business revenue: 100
+    Business costs: 75
+    Traceback (most recent call last):
+      File "/Users/bddicken/mu_code/test.py", line 3, in <module>
+        profit = revenue - cost
+    TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
 #Do✅
     #Input
     revenue = int(input('Business revenue: '))
@@ -164,3 +172,88 @@
     profit: ###############
     
   ```
+<div> <h2>String Indexing</h2> </div>
+
+```python
+#Do✅
+    #input
+    city = ´Jerusalem'
+    letter = city[4]
+    print(letter
+
+    #output
+     s 
+
+#Do✅
+    #input
+    city = ´Jerusalem'
+    rock = city[0] + city[1] + city[8]
+    print(rock)
+
+    #output
+     Jem 
+
+
+#Do✅
+    #input
+    city = ´Jerusalem'
+    rock = city[-9] + city[-8] + city[-1]
+    print(rock)
+
+    #output
+     Jem
+
+#Do✅ Len()
+    #input
+    text = input('Type something')
+    last = text[len(text) -1]
+    other = text[len(text) -2]
+    print('The last two characters of if your input were: ' + other + last)
+
+    #output
+     Belgium
+     um
+
+<div> <h2>Math</h2> </div>
+
+```python
+#Do✅
+    #Input
+    x = 100 + 100
+    y = 100 / 2
+    print( type(x) )
+    print( type(x) )
+
+    #output
+    <class 'int'>
+    <class 'float'>
+
+#Do✅
+    #input INT() 
+    revenue = int(input('Business revenue: '))
+    cost = int(input('Business costs: '))
+    profit = revenue - cost
+    print('The business profit is: ' + str(profit))
+    costBar = '#' * int((cost / revenue) * 25)
+    profitBar = '#' * int((profit / revenue ) * 25)
+    print('  cost: ' + costBar)
+    print('profit: ' + profitBar)
+
+    #output
+    Business revenue: 450
+    Business costs: 150
+    The business profit is: 300
+      cost: ########
+    profit: ################
+
+#Don't❌❌ Support string multiplication with FLOATS!!!!
+    #input
+    x = 'z'
+    y = x * 1.5
+    print(y)
+
+#output
+TypeError: can't multiply sequence by non-int of type 'float'
+  
+  ```
+
