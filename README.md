@@ -319,7 +319,7 @@ else:
     print('  *Too long')
     print('  *Not capitalized')
 
-#Input
+    #Input
 experience = input("What level of Spanish experience do you have? ")
 
 if experience == "none":
@@ -335,5 +335,49 @@ elif experience == "202":
 else:
     print("Sorry, I didn't recognize what you entered.")
     print("Please give me one of these experience levels: none, 101, 102, 201, or 202.")
+  ```
+<div> <h2>Nesting if-statements</h2> </div>
+
+```python
+#Do✅
+   #Input
+hungry = input('are you hungry? ')
+if hungry == 'yes':
+  sounds_good = input('What sound good to get? ')
+  if sounds_good == 'pizza':
+    print('go to Pizza Hut and get some pizza!!')
+  elif sounds_good == 'burger':
+    print('go to In-Out Burger and get a burger!!')
+  elif sounds_good == 'tacos':
+    print('go to home and make some tacos')
+  else:
+    print('unsure')
+
+thirsty = input('are you thirsty? ')
+if thirsty == 'yes':
+  sounds_good = input('What sound good to drink?')
+  if sounds_good == 'soda':
+    print('go to Coca-Cola and get some soda!!')
+  elif sounds_good == 'water':
+    print('go to home and get some water!!')
+  else:
+     print('unsure')
+
+#input:✅
+x = int(input('enter a number: '))
+y = int(input('enter a number: '))
+if x > y:
+  if y*2 == x:
+    if y < x-20:
+      if y == 100:
+        print('I reacehed thsi line')
+      else:
+        print('Else A')
+    else:
+      print('Else B')
+  else: 
+    print('Else C')
+else:
+  print('Else D')
   ```
 
