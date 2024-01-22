@@ -305,5 +305,35 @@ TypeError: can't multiply sequence by non-int of type 'float'
     -----
   
   ```
+<div> <h2>Making Decisions with if statements</h2> </div>
 
+```python
+#Do✅
+   #Input
+# Ask the user for lenght of its name
+name = input('What is your first name?')
+if len(name) < 35 and name[0].isupper():
+    print('That is a valid name')
+else:
+    print('Sorry, your name is either')
+    print('  *Too long')
+    print('  *Not capitalized')
+
+#Input
+experience = input("What level of Spanish experience do you have? ")
+
+if experience == "none":
+    print("You should take Spanish 101")
+elif experience == "101":
+    print("You should take Spanish 102")
+elif experience == "102":
+    print("You should take Spanish 201")
+elif experience == "201":
+    print("You should take Spanish 202")
+elif experience == "202":
+    print("You should move on to more advanced classes!")
+else:
+    print("Sorry, I didn't recognize what you entered.")
+    print("Please give me one of these experience levels: none, 101, 102, 201, or 202.")
+  ```
 
