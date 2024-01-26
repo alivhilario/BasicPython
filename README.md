@@ -380,4 +380,55 @@ if x > y:
 else:
   print('Else D')
   ```
+<div> <h2>Combining if-Stateents and Loops</h2> </div>
 
+```python
+#Do✅
+   #Input
+hungry = input('are you hungry? ')
+if hungry == 'yes':
+  sounds_good = input('What sound good to get? ')
+  if sounds_good == 'pizza':
+    print('go to Pizza Hut and get some pizza!!')
+  elif sounds_good == 'burger':
+    print('go to In-Out Burger and get a burger!!')
+  elif sounds_good == 'tacos':
+    print('go to home and make some tacos')
+  else:
+    print('unsure')
+
+thirsty = input('are you thirsty? ')
+if thirsty == 'yes':
+  sounds_good = input('What sound good to drink?')
+  if sounds_good == 'soda':
+    print('go to Coca-Cola and get some soda!!')
+  elif sounds_good == 'water':
+    print('go to home and get some water!!')
+  else:
+     print('unsure')
+
+#input:✅
+x = int(input('enter a number: '))
+y = int(input('enter a number: '))
+if x > y:
+  if y*2 == x:
+    if y < x-20:
+      if y == 100:
+        print('I reacehed thsi line')
+      else:
+        print('Else A')
+    else:
+      print('Else B')
+  else: 
+    print('Else C')
+else:
+  print('Else D')
+#input✅
+n = int(input('type').strip())
+if (n % 2 == 0 and n >= 2 and n <= 5) or (n % 2 == 0 and n > 20): 
+  print('Not Weird')
+elif n >= 6 and n <= 20:
+  print('Weird')
+else:
+  print('Weird')
+  ```
