@@ -9,12 +9,16 @@
     big
     black
     box''')
+    print("I'm Alex")
+    print('She said "Lacomme"'
 
 #output
     the
     big
     black
     box
+    I'm Alex
+    She said "La comme"
 
 #Don't❌❌
     print('the
@@ -69,7 +73,23 @@
     #output
     bear cheetah
     bearcheetah
-    
+
+#Use of Braces
+#input
+    name = 'Alex'
+    lastName = 'Jones'
+    print('My name is {} and my last name is {}'.format(name, lastName))
+
+ #output
+    My name is Alex and my last name is Jones.
+
+#input
+    name = 'Alex'
+    lastName = 'Jones'
+    print(f'My name is {name} {lastName}')
+
+ #output
+    My name is Alex and my last name is Jones.
   ```
 <div> <h2>The Input Function </h2> </div>
 
