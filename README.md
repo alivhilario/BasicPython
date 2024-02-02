@@ -508,4 +508,40 @@ else:
     False
     True
   ```
+<div> <h2>String recargado</h2> </div>
+
+```python
+#Do✅
+    #Input
+    text = 'She knows how to program Py'
+    print('Js' in text)
+    print('Py ' in text)
+
+if 'Py' in text:
+    print('correct decision')
+else:
+    print('good one too')
+
+    #Output
+    False
+    False
+    correct decision
+  ```
+<div><h3>Piedra papel o tijera</h3></div>
+
+```python
+    #Input
+    user_option = input('piedra, papel o tijera => ')
+    user_option =user_option.lower()
+    computer_option = 'piedra'
+    if user_option == computer_option:
+      print('empate')
+    elif user_option == 'piedra':
+      if computer_option == 'tijera':
+        print('piedra gana a tijera')
+        print('user gano')
+      else:
+        print('papel gana a piedra')
+        print('computer gano')
+  ```
 
