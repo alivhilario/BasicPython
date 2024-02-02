@@ -452,3 +452,24 @@ elif n >= 6 and n <= 20:
 else:
   print('Weird')
   ```
+<div> <h2>String recargado</h2> </div>
+
+```python
+#Do✅
+    #Input
+    text = 'She knows how to program Py'
+    print('Js' in text)
+    print('Py ' in text)
+
+if 'Py' in text:
+    print('correct decision')
+else:
+    print('good one too')
+
+    #Output
+    False
+    False
+    correct decision
+    
+  
+  ```
