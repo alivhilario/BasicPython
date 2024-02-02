@@ -544,4 +544,45 @@ else:
         print('papel gana a piedra')
         print('computer gano')
   ```
+<div><h3>Indexing & slicing</h3></div>
+
+```python
+    #Input
+    text = 'She knows how to program Python'
+    print(text[0])
+    print(text[1])
+    # print(text[999])
+    size = len(text)
+    print('size => ',size)
+    print(text[size - 1])
+    print(text[-1])
+    
+    # slicing
+    print(text[0:5])
+    print(text[10:16])
+    print(text[:10])
+    print(text[5:-1])
+    print(text[5:])
+    print(text[:])
+    print(text[10:16:1])
+    print(text[10:16:2])
+    print(text[::2])
+
+    #Output
+    S
+    h
+    size =>  31
+    n
+    n
+    She k
+    how to
+    She knows 
+    nows how to program Pytho
+    nows how to program Python
+    She knows how to program Python
+    how to
+    hwt
+    Sekoshwt rga yhn
+
+  ```
 
