@@ -470,6 +470,42 @@ else:
     False
     False
     correct decision
+
+    #input
+    size = len(text)
+    print(size)
+    print(text.upper())
+    print(text.lower())
+    print(text.count('o'))
     
-  
+    print(text.swapcase())
+    print(text.startswith('She'))
+    print(text.endswith('Py'))
+    print(text.replace('Py', 'Go'))
+    
+    text_2 = 'this is a title'
+    print(text_2)
+    print(text_2.capitalize())
+    print(text_2.title())
+    print(text_2.isdigit())
+    print('398'.isdigit())
+
+    #output
+    False
+    False
+    correct decision
+    27
+    SHE KNOWS HOW TO PROGRAM PY
+    she knows how to program py
+    4
+    sHE KNOWS HOW TO PROGRAM pY
+    True
+    True
+    She knows how to program Go
+    this is a title
+    This is a title
+    This Is A Title
+    False
+    True
   ```
+
