@@ -585,4 +585,148 @@ else:
     Sekoshwt rga yhn
 
   ```
+<div><h3>Indexing & slicing</h3></div>
+
+```python
+    #Input
+    text = 'She knows how to program Python'
+    print(text[0])
+    print(text[1])
+    # print(text[999])
+    size = len(text)
+    print('size => ',size)
+    print(text[size - 1])
+    print(text[-1])
+    
+    # slicing
+    print(text[0:5])
+    print(text[10:16])
+    print(text[:10])
+    print(text[5:-1])
+    print(text[5:])
+    print(text[:])
+    print(text[10:16:1])
+    print(text[10:16:2])
+    print(text[::2])
+
+    #Output
+    S
+    h
+    size =>  31
+    n
+    n
+    She k
+    how to
+    She knows 
+    nows how to program Pytho
+    nows how to program Python
+    She knows how to program Python
+    how to
+    hwt
+    Sekoshwt rga yhn
+
+  ```
+<div><h3>Indexing & slicing</h3></div>
+
+```python
+    #Input
+    text = 'She knows how to program Python'
+    print(text[0])
+    print(text[1])
+    # print(text[999])
+    size = len(text)
+    print('size => ',size)
+    print(text[size - 1])
+    print(text[-1])
+    
+    # slicing
+    print(text[0:5])
+    print(text[10:16])
+    print(text[:10])
+    print(text[5:-1])
+    print(text[5:])
+    print(text[:])
+    print(text[10:16:1])
+    print(text[10:16:2])
+    print(text[::2])
+
+    #Output
+    S
+    h
+    size =>  31
+    n
+    n
+    She k
+    how to
+    She knows 
+    nows how to program Pytho
+    nows how to program Python
+    She knows how to program Python
+    how to
+    hwt
+    Sekoshwt rga yhn
+
+  ```
+<div><h3>CRUD, create, read, update and delete</h3></div>
+
+```python
+#Changing values ✏️
+    #Input
+    numbers = [1, 2, 3, 4, 5]
+    print(numbers[1])
+    numbers[-1] = 10
+    print(numbers)
+
+    #Output
+    2
+    [1, 2, 3, 4, 10]
+
+#Adding values ➕
+    #input
+    numbers.append(700)
+    print(numbers)
+
+    #Outputs
+    [1, 2, 3, 4, 10, 700]
+
+#Inserting Values 📝
+    #Input
+    numbers.insert(0, 'Hey!')
+    print(numbers)
+
+    numbers.insert(3, 'plus')
+
+    #Output
+    ['Hey!', 1, 2, 'plus', 3, 4, 10, 700]
+
+#Linking all 🖇️
+    #input
+    tasks = ['todo 1 ', 'todo 2', 'todo 3']
+    newList = numbers + tasks
+    print(newList)
+
+    #Output
+    ['Hey!', 1, 2, 'plus', 3, 4, 10, 700, 'todo 1 ', 'todo 2', 'todo 3']
+
+#Finding a Index and changing it🔎🔎
+    #input
+    index = newList.index('todo 2')
+    print(index)
+    
+    newList[index] = 'todo changed'
+    print(newList)
+
+    #Output
+    9
+    ['Hey!', 1, 2, 'plus', 3, 4, 10, 700, 'todo 1 ', 'todo changed', 'todo 3']
+  ```
+
+
+
+
+
+
+
+
+
 
