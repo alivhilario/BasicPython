@@ -835,6 +835,7 @@ Values =  dict_values(['santi', ['python', 'javascript', 'rust']])
 ```
 <div><h2>While Cycles</h2></div>
 ```python
+
 #Break 🧂
 counter = 0
 while counter < 20:
@@ -849,6 +850,7 @@ while counter < 20:
   if counter < 15:
     continue
   print(counter)
+  
 ```
 
 
