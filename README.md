@@ -638,6 +638,32 @@ else:
     #Output
     9
     ['Hey!', 1, 2, 'plus', 3, 4, 10, 700, 'todo 1 ', 'todo changed', 'todo 3']
+
+#Delete ✂️✂️
+    #Input
+    newList.remove('todo 3')
+    print(newList)
+    
+    newList.pop(0)
+    print(newList)
+
+    #output
+    ['Hey!', 1, 2, 'plus', 3, 4, 10, 700, 'todo 1 ', 'todo changed']
+    [1, 2, 'plus', 3, 4, 10, 700, 'todo 1 ', 'todo changed']
+
+#Reverse 🔀
+    #input
+    newList.reverse()
+    print(newList)
+    #Output
+    ['todo changed', 'todo 1 ', 700, 10, 4, 3, 'plus', 2, 1]
+
+#sort 👮👮
+    #input
+    numbersSet2 = [1, 4, 6, 3]
+    numbersSet2.sort()
+    print(numbersSet2)
+🚨🚨Sort does not work with MIX elements🚨🚨
   ```
 
 
