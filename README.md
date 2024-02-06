@@ -838,19 +838,46 @@ Values =  dict_values(['santi', ['python', 'javascript', 'rust']])
 ```python
 
 #Break 🧂
-counter = 0
-while counter < 20:
-  counter += 1
-  if counter == 15:
-    break
-  print(counter)
-#Continue ⏭️
-print('Continue⏭️ ')
-while counter < 20:
-  counter += 1
-  if counter < 15:
-    continue
-  print(counter)
+    #input
+    counter = 0
+    while counter < 20:
+      counter += 1
+      if counter == 15:
+        break
+
+    #output
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+
+    #input
+      print(counter)
+    #Continue ⏭️
+    print('Continue⏭️ ')
+    while counter < 20:
+      counter += 1
+      if counter < 15:
+        continue
+      print(counter)
+
+    #output
+    Continue⏭️ 
+    16
+    17
+    18
+    19
+    20
   
 
 ``` 
