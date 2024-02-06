@@ -756,20 +756,83 @@ elif userOptions == 'tijera':
   else:
     print('piedra gana a tijera')
     print('computer gano')
-
-    #Output
-    -
-
-#Delete ✂️✂️
-    #Input
-    #output
-
-#Reverse 🔀
-    #input
-#sort 👮👮
-    #input
   ```
 
+<div><h2>Diccionaries</h2></div>
+
+```python
+#input
+dicc = {}
+print(type(dicc))
+
+dicc = {
+  'airplane': 'f5',
+  'name': 'nicolas',
+  'lastName': 'molina',
+  'age': 99
+}
+
+print(dicc)
+print(len(dicc))
+
+print(dicc['age'])
+print(dicc['lastName'])
+
+print(dicc.get('unvalue'))
+print('airplane' in dicc)
+print('uknown' in dicc)
+
+#output
+<class 'dict'>
+{'airplane': 'f5', 'name': 'nicolas', 'lastName': 'molina', 'age': 99}
+4
+99
+molina
+None
+True
+False
+
+
+#Methods
+person = {
+  'name': 'nico',
+  'lastName': 'molina',
+  'langs': ['python', 'javascript'],
+  'age': 99
+}
+
+print(person)
+
+#Update
+person['name'] = 'santi'
+person['age'] -= 50 
+#land is  "List" lets update!!
+person['langs'].append('rust')
+print(person)
+#Delete
+del person['lastName']
+print(person)
+
+person.pop('age')
+print(person)
+
+#items
+print('Items = ', person.items())
+#keys
+print('Keys = ', person.keys())
+#values
+print('Values = ', person.values())
+
+#Output
+{'name': 'nico', 'lastName': 'molina', 'langs': ['python', 'javascript'], 'age': 99}
+{'name': 'santi', 'lastName': 'molina', 'langs': ['python', 'javascript', 'rust'], 'age': 49}
+{'name': 'santi', 'langs': ['python', 'javascript', 'rust'], 'age': 49}
+{'name': 'santi', 'langs': ['python', 'javascript', 'rust']}
+Items =  dict_items([('name', 'santi'), ('langs', ['python', 'javascript', 'rust'])])
+Keys =  dict_keys(['name', 'langs'])
+Values =  dict_values(['santi', ['python', 'javascript', 'rust']])
+
+```
 
 
 
