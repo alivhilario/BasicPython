@@ -666,7 +666,74 @@ else:
 🚨🚨Sort does not work with MIX elements🚨🚨
   ```
 
+<div><h3>TUPLAS</h3></div>
 
+```python
+#Getting in ✏️
+    #Input
+    numbers = (1,2,3,5)
+    strings = ('nico', 'zule', 'santi', 'nico')
+    print(numbers)
+    print('0 =>', numbers[0])
+    print('-1 =>', numbers[-1])
+    print(type(numbers))
+
+
+    #Output
+    (1, 2, 3, 5)
+    0 => 1
+    -1 => 5
+    <class 'tuple'>
+
+#Get in and Counting ➕
+    #input
+    print(strings)
+    print(strings.index('zule'))
+    print(strings.count('nico'))
+
+    #Outputs
+    1
+    2
+
+#Changing in a LIST! 📝
+    #Input
+    myList = list(strings)
+    print(myList)
+    print(type(myList))
+
+    #Output
+    myList = list(strings)
+    print(myList)
+    print(type(myList))
+
+#Changing values being a List!🖇
+    #input
+    myList[1] = 'Jule'
+    print(myList)
+
+    myTuple = tuple(myList)
+    print(myTuple)
+
+    #Output
+    ['nico', 'Jule', 'santi', 'nico']
+    ('nico', 'Jule', 'santi', 'nico')
+
+#Finding a Index and changing it🔎🔎
+    #input
+   
+
+    #Output
+    
+
+#Delete ✂️✂️
+    #Input
+    #output
+
+#Reverse 🔀
+    #input
+#sort 👮👮
+    #input
+  ```
 
 
 
