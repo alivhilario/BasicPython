@@ -685,7 +685,7 @@ else:
     -1 => 5
     <class 'tuple'>
 
-#Get in and Counting ➕
+#Index in and Counting ➕
     #input
     print(strings)
     print(strings.index('zule'))
@@ -718,12 +718,47 @@ else:
     ['nico', 'Jule', 'santi', 'nico']
     ('nico', 'Jule', 'santi', 'nico')
 
-#Finding a Index and changing it🔎🔎
+#Game with TUPLES!
     #input
-   
+   import random
+
+options = ('piedra', 'papel', 'tijera')
+userOptions = input('piedra, papel o tijera => ')
+userOptions = userOptions.lower()
+
+if not userOptions in options:
+  print('No valid option')
+
+compuOptions = random.choice(options)
+print('User option =>', userOptions)
+print('Computer option =>', compuOptions)
+
+if userOptions == compuOptions:
+  print('tie')
+elif userOptions == 'piedra':
+  if compuOptions == 'tijera':
+    print('piedra gana a tijera')
+    print('user gano')
+  else:
+    print('papel gana a piedra')
+    print('computer gano')
+elif userOptions == 'papel':
+  if compuOptions == 'piedra':
+    print('papel gana a piedra')
+    print('user gano')
+  else:
+    print('tijera gana a papel')
+    print('computer gano')
+elif userOptions == 'tijera':
+  if compuOptions == 'papel':
+    print('tijera gana a papel')
+    print('user gano')
+  else:
+    print('piedra gana a tijera')
+    print('computer gano')
 
     #Output
-    
+    -
 
 #Delete ✂️✂️
     #Input
