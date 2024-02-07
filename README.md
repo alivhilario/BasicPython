@@ -970,12 +970,34 @@ print(new_list)
     2
     3
     4
-
+#Nesting cycles
     #input
-      
+      matriz = [
+      [1,2,3],
+      [4,5,6],
+      [7,8,9]
+    ]
+    print(matriz[0][1])
+    
+    for row in matriz:
+      print(row)
+      for column in row:
+        print(column)
 
     #output
-    
+    2
+    [1, 2, 3]
+    1
+    2
+    3
+    [4, 5, 6]
+    4
+    5
+    6
+    [7, 8, 9]
+    7
+    8
+    9
 ``` 
 
 
