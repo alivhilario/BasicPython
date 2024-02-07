@@ -878,8 +878,104 @@ Values =  dict_values(['santi', ['python', 'javascript', 'rust']])
     18
     19
     20
-  
+``` 
+<div><h2>For cycle 🦾🦾</h2></div>
 
+```python
+
+#Break 🧂
+    #input
+    #For cycle
+for element in range(20):
+  print(element)
+for element in range(4,23):
+  print(element)
+
+
+list = [23, 45, 67, 89, 43]
+for element in list:
+  print(element)
+#Tuple
+tuple = ('nick', 'jule', 'seli')
+for element in tuple:
+  print(element)
+#Dictionary
+product = {
+  'description': 'shirt',
+  'price': 100,
+  'stock': 89
+}
+for element in product:
+  print(element)
+for key in product:
+  print(key, '=>', product[key])
+for key, value in product.items():
+  print(key, '=>', value)
+#Laboral day
+people = [
+  {
+    'name': 'nico',
+    'age': 34
+  },
+  {
+    'name': 'zule',
+    'age': 45
+  },
+  {
+    'name': 'santi',
+    'age': 4
+  }
+]
+for person in people:
+  print('name =>', person['name'])
+
+my_list = [1, -1, 2, -2, 3, -3, 4, -4]
+new_list = []
+
+# Escribe tu solución 👇
+for element in my_list:
+  if element > 0:
+    new_list = element
+    print(new_list)
+#Just positives
+my_list = [1, -1, 2, -2, 3, -3, 4, -4]
+new_list = []
+for element in my_list:
+  if element > 0:
+    new_list.append(element)
+print(new_list)
+
+    #output
+    23
+    45
+    67
+    89
+    43
+    nick
+    jule
+    seli
+    description
+    price
+    stock
+    description => shirt
+    price => 100
+    stock => 89
+    description => shirt
+    price => 100
+    stock => 89
+    name => nico
+    name => zule
+    name => santi
+    1
+    2
+    3
+    4
+
+    #input
+      
+
+    #output
+    
 ``` 
 
 
