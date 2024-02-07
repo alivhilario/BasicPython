@@ -1073,8 +1073,17 @@ print(new_list)
           print('El ganador es el usuario')
           break
 ```
+<div><h3>Some challenges</h3></div>
+```python
 
-
+    def is_leap(year):
+        leap = False
+        if (year >= 1900 and year <= 10**5) and (year % 4 == 0) and (year not in [1800, 1900, 2100, 2200, 2300]):
+            leap = True
+        return leap
+    year = int(input())
+    print(is_leap(year))
+```
 
 
 
