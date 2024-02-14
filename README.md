@@ -471,42 +471,47 @@ else:
     False
     correct decision
 
-    #input
-    size = len(text)
-    print(size)
-    print(text.upper())
-    print(text.lower())
-    print(text.count('o'))
-    
-    print(text.swapcase())
-    print(text.startswith('She'))
-    print(text.endswith('Py'))
-    print(text.replace('Py', 'Go'))
-    
-    text_2 = 'this is a title'
-    print(text_2)
-    print(text_2.capitalize())
-    print(text_2.title())
-    print(text_2.isdigit())
-    print('398'.isdigit())
+#input
+text = 'She knows how to program in Python'
+size = len(text)
+print(size)
+print(text.upper())
+print(text.lower())
+print(text.count('o'))
 
-    #output
-    False
-    False
-    correct decision
-    27
-    SHE KNOWS HOW TO PROGRAM PY
-    she knows how to program py
-    4
-    sHE KNOWS HOW TO PROGRAM pY
-    True
-    True
-    She knows how to program Go
-    this is a title
-    This is a title
-    This Is A Title
-    False
-    True
+#output
+34
+SHE KNOWS HOW TO PROGRAM IN PYTHON
+she knows how to program in python
+5
+
+    #input
+    text = 'She knows how to program in Python'
+print(text.swapcase())
+print(text.startswith('She'))
+print(text.endswith('Py'))
+print(text.replace('Py', 'Go'))
+
+#output
+sHE KNOWS HOW TO PROGRAM IN pYTHON
+True
+False
+She knows how to program in Gothon
+
+#input
+text_2 = 'this is a title'
+print(text_2)
+print(text_2.capitalize())
+print(text_2.title())
+print(text_2.isdigit())
+print('398'.isdigit())
+
+#output
+this is a title
+This is a title
+This Is A Title
+False
+True
   ```
 <div> <h2>String recargado</h2> </div>
 
@@ -547,42 +552,66 @@ else:
 <div><h3>Indexing & slicing</h3></div>
 
 ```python
-    #Input
-    text = 'She knows how to program Python'
-    print(text[0])
-    print(text[1])
-    # print(text[999])
-    size = len(text)
-    print('size => ',size)
-    print(text[size - 1])
-    print(text[-1])
-    
-    # slicing
-    print(text[0:5])
-    print(text[10:16])
-    print(text[:10])
-    print(text[5:-1])
-    print(text[5:])
-    print(text[:])
-    print(text[10:16:1])
-    print(text[10:16:2])
-    print(text[::2])
+#Input
+text = 'She knows how to program Python'
+print(text[0])
+print(text[1])
 
-    #Output
-    S
-    h
-    size =>  31
-    n
-    n
-    She k
-    how to
-    She knows 
-    nows how to program Pytho
-    nows how to program Python
-    She knows how to program Python
-    how to
-    hwt
-    Sekoshwt rga yhn
+#output
+S
+h
+
+#input
+text = 'She knows how to program Python'
+#print(text[999])
+size = len(text)
+print('size => ',size)
+print(text[size - 1])
+print(text[-1])
+
+#output
+size =>  31
+n
+n
+
+#input  
+# slicing
+text = ('Oh! heaven is a place you own')
+print(text[0:5])
+#Output
+Oh! h
+#input  
+print(text[10:16])
+#output
+ is a 
+#input  
+print(text[:10])
+#output
+Oh! heaven
+#input  
+print(text[5:-1])
+#output
+eaven is a place you ow
+#input  
+print(text[5:])
+#output
+eaven is a place you own
+#input  
+print(text[:])
+#output
+Oh! heaven is a place you own
+#input  
+print(text[10:16:1])
+#output
+ is a 
+#input  
+print(text[10:16:2])
+#output
+ sa
+#input  
+print(text[::2])
+#output
+O!hae sapaeyuon
 
   ```
 
@@ -697,14 +726,14 @@ else:
 
 #Changing in a LIST! 📝
     #Input
+    strings = ('nico', 'zule', 'santi', 'nico')
     myList = list(strings)
     print(myList)
     print(type(myList))
 
     #Output
-    myList = list(strings)
-    print(myList)
-    print(type(myList))
+    ['nico', 'zule', 'santi', 'nico']
+    <class 'list'>
 
 #Changing values being a List!🖇
     #input
